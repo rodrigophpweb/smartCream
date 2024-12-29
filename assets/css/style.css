@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Varta:wght@300..700&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    font-style: normal;
+    font-family: "Varta", serif;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+.paddingContent{
+    padding: 0 8%;
+}
+
+body {
+    font-size: 1.6rem;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    width: 100%;
+
+    .aboutBrand {
+        width: 50%;
+        text-align: center;
+
+        figure {
+            padding-top: 5rem;
+
+            img {
+                width: 50%;
+            }
+        }
+    
+        h1 {
+
+        }
+
+        p {
+
+        }
+    
+    }
+    
+    .carousel {
+        width: 50%;
+    }
+}
+
+main {
+
+    .smartSofts,
+    .smartDessets,
+    .smartShakes {
+        padding: 2rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+           img {
+                margin: 0 auto;
+           } 
+        }
+    }
+
+    .productSmartShakes {        
+        background-image: url('../images/background-smart-shakes.webp');
+        background-size: contain;
+        display: flex;
+
+        figure {
+            width: 50%;
+            
+            img {
+                width: 100%;
+            }
+        }
+
+        .listSmartShakes {
+            padding: 10rem 3rem;
+            width: 50%;
+            display: flex;
+            color: white;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            li {
+                display: flex;
+                flex-direction: column;
+                width: 45%;
+
+                strong {
+                    text-transform: uppercase;
+                    font-weight: 700;
+                }
+
+            }
+        }
+    }
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0 2rem;
+    color: white;
+    background-color: #d5838f;
+
+    figure {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 75%;
+            margin-bottom: 5rem;
+        }
+    }
+
+    address {
+        font-size: 2.5rem;
+    }
+}
